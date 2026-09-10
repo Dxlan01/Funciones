@@ -13,7 +13,7 @@ function contar(contraseña) {
             "Invalido";
         }
     }
-    else  if(contraseña.length <=6){
+    if(contraseña.length <=6){
             return ("Su contraseña es: "+contraseña+". \nEsta tiene una longitud de: "+contraseña.length+". \nTiene numeros: Si. \nNivel: Debil")
         }
     else if(contraseña.length >6 && contraseña.length<=9){

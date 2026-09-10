@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="Fu5.js"></script>
+    <script>
+        let precio=Number(prompt("Ingrese el precio del producto"));
+        let cantidad=Number(prompt("Ingrese la cantidad de productos: "));
+
+        alert ("Precio Unitario: "+precio+"\nCantidad: "+cantidad+"\nSubtotal: "+calcularSubtotal(precio, cantidad).toLocaleString('es-CO')+"$\nDescuento: "+ calcularDescuento(precio, cantidad).toLocaleString('es-CO') +"$\nTotal: "+calcularTotal(precio, cantidad).toLocaleString('es-CO')+"$")
+    </script>
+</body>
+</html>

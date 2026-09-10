@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 6</title>
+</head>
+<body>
+    <script src="Fu6.js"></script>
+    <script>
+        let cantidad = parseInt(prompt("¿Cuántos números desea ingresar?"));
+        for (let i = 0; i < cantidad; i++) {
+            let num = parseFloat(prompt("Ingrese el número " + (i + 1) + ":"));
+            numeros.push(num);
+        }
+
+        analizarNumeros();
+
+        alert("Los números ingresados fueron: " + numeros + "\nCantidad de positivos: " + positivos + "\nCantidad de negativos: " + negativos + "\nCantidad de ceros: " + ceros + "\nSuma de positivos: " + sumaPositivos + "\nSuma de negativos: " + sumaNegativos);
+    </script>
+</body>
+</html>
